@@ -1,5 +1,8 @@
 {
-	"name": "studio-simon-components",
+	"name": "@RalphSimon/studio-simon-components",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/RalphSimon"
+	},
 	"version": "0.0.1",
 	"description": "Example component library",
 	"main": "dist/cjs/index.js",
