@@ -3,7 +3,7 @@
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com/RalphSimon"
 	},
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Example component library",
 	"main": "dist/cjs/index.js",
 	"module": "dist/esm/index.js",
@@ -12,7 +12,8 @@
 	],
 	"types": "dist/index.d.ts",
 	"scripts": {
-		"rollup": "rollup -c"
+		"rollup": "rollup -c",
+		"prepublishOnly": "npm run rollup"
 	},
 	"author": "RalphSimon",
 	"license": "ISC",
