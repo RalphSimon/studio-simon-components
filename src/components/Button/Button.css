@@ -1,0 +1,11 @@
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	color: #fff;
+	border-end-end-radius: 8px;
+	background-color: #0ea5e9;
+}
